@@ -7,6 +7,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <script type="text/javascript" src='assets/javascript/app.js'></script>
 </head>
 <body>
@@ -23,59 +24,14 @@
 					 	<table class="table table-striped">
 						    <thead>
 						      <tr>
-						        <th id="train-name">Train Name</th>
-						        <th id="destination">Destination</th>
-						        <th id="frequency">Frequency (min)</th>
-						        <th id="next-arrival">Next Arrival</th>
-						        <th id="minutes-away">Minutes Away</th>
+						        <th id="train-name-th">Train Name</th>
+						        <th id="destination-th">Destination</th>
+						        <th id="frequency-th">Frequency (min)</th>
+						        <th id="next-arrival-th">Next Arrival</th>
+						        <th id="minutes-away-th">Minutes Away</th>
 						      </tr>
 						    </thead>
-						<tbody>
-						      <tr>
-						        <td id="test1"></td>
-						        <td id="test2"></td>
-						        <td id="test3"></td>
-						        <td id="test4"></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						      </tr>
-						      <tr>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						      </tr>
-						      <tr>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						      </tr>
-						      <tr>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						      </tr>
-						      <tr>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						        <td></td>
-						      </tr>
+						<tbody id="table">
 						    </tbody>
 						  </table>
 					 </div>
