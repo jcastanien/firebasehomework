@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+    <script type="text/javascript" src='app.js'></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-primary">
+					 <div class="panel-heading">
+					 	Current Employees
+					 </div>
+					 <!-- enhd panel heading -->
+					 <div class="panel-body">
+					 	<table class="table table-striped">
+						    <thead>
+						      <tr>
+						        <th id="train-name">Train Name</th>
+						        <th id="destination">Destination</th>
+						        <th id="frequency">Frequency (min)</th>
+						        <th id="next-arrival">Next Arrival</th>
+						        <th id="minutes-away">Minutes Away</th>
+						      </tr>
+						    </thead>
+						<tbody>
+						      <tr>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						      </tr>
+						      <tr>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						      </tr>
+						      <tr>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						      </tr>
+						      <tr>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						      </tr>
+						      <tr>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						        <td></td>
+						      </tr>
+						    </tbody>
+						  </table>
+					 </div>
+					 <!-- end panel body -->
+				</div>
+				<!-- end panel panel primary -->
+			</div>
+			<!-- end col md 12 -->
+		</div>
+		<!-- end row -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						Add Employee
+					</div>
+					<!-- end panel heading -->
+					<form>
+					    <div class="form-group">
+					      <label for="trainname">Train Name:</label>
+					      <input type="text" class="form-control" id="train-name">
+					    </div>
+					    <div class="form-group">
+					      <label for="destination">Destination:</label>
+					      <input type="text" class="form-control" id="destination">
+					    </div>
+					    <div class="form-group">
+					      <label for="start">First Train Time (HH:MM - Military Time):</label>
+					      <input type="time" class="form-control" id="first-train-time">
+					    </div>
+					    <div class="form-group">
+					      <label for="frequency">Frequency (min):</label>
+					      <input type="number" class="form-control" id="frequency">
+					    </div>
+			  		</form>
+			  		<button type="submit" class="btn btn-primary" id="add-user">Submit</button>
+				</div>
+				<!-- end panel panel primary -->
+			</div>
+			<!-- end col md 12 -->
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+
+</body>
+</html>
